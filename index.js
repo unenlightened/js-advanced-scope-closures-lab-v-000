@@ -1,3 +1,3 @@
-function produceDrivingRange(blockRange) {
+const produceDrivingRange = function(blockRange) {
   return blockRange <= 10
 }

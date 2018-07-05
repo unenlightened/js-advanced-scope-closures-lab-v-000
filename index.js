@@ -4,3 +4,9 @@ function produceDrivingRange(blockRange) {
     return blocks <= blockRange ? `within range by ${blocks}` : `${blocks - blockRange} blocks out of range`
   }
 }
+
+function produceTipCalculator(percentage) {
+  return function(fare) {
+    return fare * percentage
+  }
+}

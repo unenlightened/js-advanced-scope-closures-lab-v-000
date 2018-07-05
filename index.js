@@ -4,4 +4,3 @@ function produceDrivingRange(blockRange) {
     return blocks <= blockRange ? 'within range by ${blocks}' : '${blocks} blocks out of range'
   }
 }
-
